@@ -1,3 +1,5 @@
+import random
+
 print("what is your name?")
 name = input()
 print("Good morning", name)
@@ -15,7 +17,7 @@ names.append("Phil")
 print(names)
 
 #print a list of random generated numbers with a fixed length
-import random
+
 n= random.randint(0,10)
 print(n)
 randomint(0,10)
